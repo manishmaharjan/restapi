@@ -1,0 +1,22 @@
+
+{
+	"student1" : {
+		"name" : "Pekka",
+		"address": "Oulu",
+		"class" : "2013",
+		"course_name": "Mobile Programming",
+		"course_description" : "Programming is done in this course",
+		"grade":"3",
+		"id" : 1
+	},
+
+	"student2":{
+		"name" : "Harri",
+		"address" : "Helsinki",
+		"class" : "2015",		
+		"course_name": "Animation",
+		"course_description" : "Animation is done in this course",
+		"grade":"4",
+		"id" : 2
+	}
+}

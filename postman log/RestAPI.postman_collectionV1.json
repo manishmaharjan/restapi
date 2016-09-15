@@ -1,0 +1,319 @@
+{
+	"id": "fc46e7b0-2b83-dde5-b839-0ba68c90f760",
+	"name": "RestAPI",
+	"description": "",
+	"order": [
+		"0bebb76b-1351-9b0a-e9c9-731be399eed0",
+		"25cc680c-84bc-8e7e-9906-df7b25aa9d51",
+		"bcc33d64-1a1b-8acb-2a3a-5bf14404decc",
+		"a4b90edd-b5e0-928a-b195-a03027dca98c",
+		"72f8b1ab-c379-aca0-d119-c54723d30c01"
+	],
+	"folders": [],
+	"timestamp": 1473971355777,
+	"owner": "",
+	"public": false,
+	"published": false,
+	"requests": [
+		{
+			"id": "0bebb76b-1351-9b0a-e9c9-731be399eed0",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://127.0.0.1:3333/",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "fc46e7b0-2b83-dde5-b839-0ba68c90f760",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:3333/",
+			"description": "This is the PUT request where student3 is added",
+			"descriptionFormat": "html",
+			"time": 1473971409584,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}"
+		},
+		{
+			"id": "25cc680c-84bc-8e7e-9906-df7b25aa9d51",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://127.0.0.1:3333/",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "fc46e7b0-2b83-dde5-b839-0ba68c90f760",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:3333/",
+			"description": "This is the DELETE request where student2 with ID:2 is deleted and only ID:2 student1 is shown",
+			"descriptionFormat": "html",
+			"time": 1473971470216,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}"
+		},
+		{
+			"id": "72f8b1ab-c379-aca0-d119-c54723d30c01",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://127.0.0.1:3333/1",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fc46e7b0-2b83-dde5-b839-0ba68c90f760",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:3333/",
+			"description": "This responds a GET request through ID \n\n\t\t",
+			"descriptionFormat": "html",
+			"time": 1473972368417,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"John\",\r\n\t\t\"address\" : \"USA\",\r\n\t\t\"class\" : \"2012\",\t\t\r\n\t\t\"course_name\": \"Cloud Services\",\r\n\t\t\"course_description\" : \"Student will learn about cloud services\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : \"4\"\r\n\t}"
+		},
+		{
+			"id": "a4b90edd-b5e0-928a-b195-a03027dca98c",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://127.0.0.1:3333/",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1473972407984,
+			"name": "http://127.0.0.1:3333/",
+			"description": "This responds a POST request for the Homepage\n\n\n\t\t\n\t\t{\n\t\t\"name\" : \"John\",\n\t\t\"address\" : \"USA\",\n\t\t\"class\" : \"2012\",\t\t\n\t\t\"course_name\": \"Cloud Services\",\n\t\t\"course_description\" : \"Student will learn about cloud services\",\n\t\t\"grade\":\"3\",\n\t\t\"id\" : \"4\"\n\t}",
+			"collectionId": "fc46e7b0-2b83-dde5-b839-0ba68c90f760",
+			"responses": [],
+			"rawModeData": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"John\",\r\n\t\t\"address\" : \"USA\",\r\n\t\t\"class\" : \"2012\",\t\t\r\n\t\t\"course_name\": \"Cloud Services\",\r\n\t\t\"course_description\" : \"Student will learn about cloud services\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : \"4\"\r\n\t}"
+		},
+		{
+			"id": "bcc33d64-1a1b-8acb-2a3a-5bf14404decc",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://127.0.0.1:3333/",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fc46e7b0-2b83-dde5-b839-0ba68c90f760",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://127.0.0.1:3333/",
+			"description": "This will list everything with GET request from the database",
+			"descriptionFormat": "html",
+			"time": 1473971559288,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 38,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "437",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 15 Sep 2016 20:32:06 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "\r\n{\r\n\t\"student1\" : {\r\n\t\t\"name\" : \"Pekka\",\r\n\t\t\"address\": \"Oulu\",\r\n\t\t\"class\" : \"2013\",\r\n\t\t\"course_name\": \"Mobile Programming\",\r\n\t\t\"course_description\" : \"Programming is done in this course\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : 1\r\n\t},\r\n\r\n\t\"student2\":{\r\n\t\t\"name\" : \"Harri\",\r\n\t\t\"address\" : \"Helsinki\",\r\n\t\t\"class\" : \"2015\",\t\t\r\n\t\t\"course_name\": \"Animation\",\r\n\t\t\"course_description\" : \"Animation is done in this course\",\r\n\t\t\"grade\":\"4\",\r\n\t\t\"id\" : 2\r\n\t}\r\n}",
+					"language": "html",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "4bd16963-c608-ebab-a621-a5603d5b35a5",
+					"name": "GET",
+					"request": {
+						"url": "http://127.0.0.1:3333/",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"enabled": true,
+								"description": "The mime type of this content"
+							}
+						],
+						"data": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}",
+						"method": "GET",
+						"dataMode": "raw"
+					}
+				},
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 38,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "437",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 15 Sep 2016 20:32:06 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "\r\n{\r\n\t\"student1\" : {\r\n\t\t\"name\" : \"Pekka\",\r\n\t\t\"address\": \"Oulu\",\r\n\t\t\"class\" : \"2013\",\r\n\t\t\"course_name\": \"Mobile Programming\",\r\n\t\t\"course_description\" : \"Programming is done in this course\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : 1\r\n\t},\r\n\r\n\t\"student2\":{\r\n\t\t\"name\" : \"Harri\",\r\n\t\t\"address\" : \"Helsinki\",\r\n\t\t\"class\" : \"2015\",\t\t\r\n\t\t\"course_name\": \"Animation\",\r\n\t\t\"course_description\" : \"Animation is done in this course\",\r\n\t\t\"grade\":\"4\",\r\n\t\t\"id\" : 2\r\n\t}\r\n}",
+					"language": "html",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "6501fafc-ce45-396b-1664-bbcee2212509",
+					"name": "GET",
+					"request": {
+						"url": "http://127.0.0.1:3333/",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"enabled": true,
+								"description": "The mime type of this content"
+							}
+						],
+						"data": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}",
+						"method": "GET",
+						"dataMode": "raw"
+					}
+				},
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 38,
+					"headers": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "437",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 15 Sep 2016 20:32:06 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "\r\n{\r\n\t\"student1\" : {\r\n\t\t\"name\" : \"Pekka\",\r\n\t\t\"address\": \"Oulu\",\r\n\t\t\"class\" : \"2013\",\r\n\t\t\"course_name\": \"Mobile Programming\",\r\n\t\t\"course_description\" : \"Programming is done in this course\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : 1\r\n\t},\r\n\r\n\t\"student2\":{\r\n\t\t\"name\" : \"Harri\",\r\n\t\t\"address\" : \"Helsinki\",\r\n\t\t\"class\" : \"2015\",\t\t\r\n\t\t\"course_name\": \"Animation\",\r\n\t\t\"course_description\" : \"Animation is done in this course\",\r\n\t\t\"grade\":\"4\",\r\n\t\t\"id\" : 2\r\n\t}\r\n}",
+					"language": "html",
+					"rawDataType": "text",
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"state": {
+						"size": "normal"
+					},
+					"id": "cd97a948-b842-30a5-274e-6dd69b443c5b",
+					"name": "GET",
+					"request": {
+						"url": "http://127.0.0.1:3333/",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"enabled": true,
+								"description": "The mime type of this content"
+							}
+						],
+						"data": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}",
+						"method": "GET",
+						"dataMode": "raw"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}"
+		}
+	]
+}

@@ -1,0 +1,268 @@
+{
+	"variables": [],
+	"info": {
+		"name": "RestAPI",
+		"_postman_id": "fc46e7b0-2b83-dde5-b839-0ba68c90f760",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:3333/",
+			"request": {
+				"url": "http://127.0.0.1:3333/",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}"
+				},
+				"description": "This is the PUT request where student3 is added"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3333/",
+			"request": {
+				"url": "http://127.0.0.1:3333/",
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}"
+				},
+				"description": "This is the DELETE request where student2 with ID:2 is deleted and only ID:2 student1 is shown"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3333/",
+			"request": {
+				"url": "http://127.0.0.1:3333/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}"
+				},
+				"description": "This will list everything with GET request from the database"
+			},
+			"response": [
+				{
+					"name": "GET",
+					"originalRequest": {
+						"url": "http://127.0.0.1:3333/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"enabled": true,
+								"description": "The mime type of this content"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "437",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 15 Sep 2016 20:32:06 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 38,
+					"body": "\r\n{\r\n\t\"student1\" : {\r\n\t\t\"name\" : \"Pekka\",\r\n\t\t\"address\": \"Oulu\",\r\n\t\t\"class\" : \"2013\",\r\n\t\t\"course_name\": \"Mobile Programming\",\r\n\t\t\"course_description\" : \"Programming is done in this course\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : 1\r\n\t},\r\n\r\n\t\"student2\":{\r\n\t\t\"name\" : \"Harri\",\r\n\t\t\"address\" : \"Helsinki\",\r\n\t\t\"class\" : \"2015\",\t\t\r\n\t\t\"course_name\": \"Animation\",\r\n\t\t\"course_description\" : \"Animation is done in this course\",\r\n\t\t\"grade\":\"4\",\r\n\t\t\"id\" : 2\r\n\t}\r\n}"
+				},
+				{
+					"name": "GET",
+					"originalRequest": {
+						"url": "http://127.0.0.1:3333/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"enabled": true,
+								"description": "The mime type of this content"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "437",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 15 Sep 2016 20:32:06 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 38,
+					"body": "\r\n{\r\n\t\"student1\" : {\r\n\t\t\"name\" : \"Pekka\",\r\n\t\t\"address\": \"Oulu\",\r\n\t\t\"class\" : \"2013\",\r\n\t\t\"course_name\": \"Mobile Programming\",\r\n\t\t\"course_description\" : \"Programming is done in this course\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : 1\r\n\t},\r\n\r\n\t\"student2\":{\r\n\t\t\"name\" : \"Harri\",\r\n\t\t\"address\" : \"Helsinki\",\r\n\t\t\"class\" : \"2015\",\t\t\r\n\t\t\"course_name\": \"Animation\",\r\n\t\t\"course_description\" : \"Animation is done in this course\",\r\n\t\t\"grade\":\"4\",\r\n\t\t\"id\" : 2\r\n\t}\r\n}"
+				},
+				{
+					"name": "GET",
+					"originalRequest": {
+						"url": "http://127.0.0.1:3333/",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"enabled": true,
+								"description": "The mime type of this content"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"H111arri\",\r\n\t\t\"address\" : \"Helsin1ki\",\r\n\t\t\"class\" : \"20115\",\t\t\r\n\t\t\"course_name\": \"Animati1on\",\r\n\t\t\"course_description\" : \"Ani1mation is done in this course\",\r\n\t\t\"grade\":\"41\",\r\n\t\t\"id\" : \"21\"\r\n\t}"
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"_postman_previewtype": "html",
+					"header": [
+						{
+							"name": "Connection",
+							"key": "Connection",
+							"value": "keep-alive",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"name": "Content-Length",
+							"key": "Content-Length",
+							"value": "437",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Thu, 15 Sep 2016 20:32:06 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "X-Powered-By",
+							"key": "X-Powered-By",
+							"value": "Express",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookie": [],
+					"responseTime": 38,
+					"body": "\r\n{\r\n\t\"student1\" : {\r\n\t\t\"name\" : \"Pekka\",\r\n\t\t\"address\": \"Oulu\",\r\n\t\t\"class\" : \"2013\",\r\n\t\t\"course_name\": \"Mobile Programming\",\r\n\t\t\"course_description\" : \"Programming is done in this course\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : 1\r\n\t},\r\n\r\n\t\"student2\":{\r\n\t\t\"name\" : \"Harri\",\r\n\t\t\"address\" : \"Helsinki\",\r\n\t\t\"class\" : \"2015\",\t\t\r\n\t\t\"course_name\": \"Animation\",\r\n\t\t\"course_description\" : \"Animation is done in this course\",\r\n\t\t\"grade\":\"4\",\r\n\t\t\"id\" : 2\r\n\t}\r\n}"
+				}
+			]
+		},
+		{
+			"name": "http://127.0.0.1:3333/",
+			"request": {
+				"url": "http://127.0.0.1:3333/",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"John\",\r\n\t\t\"address\" : \"USA\",\r\n\t\t\"class\" : \"2012\",\t\t\r\n\t\t\"course_name\": \"Cloud Services\",\r\n\t\t\"course_description\" : \"Student will learn about cloud services\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : \"4\"\r\n\t}"
+				},
+				"description": "This responds a POST request for the Homepage\n\n\n\t\t\n\t\t{\n\t\t\"name\" : \"John\",\n\t\t\"address\" : \"USA\",\n\t\t\"class\" : \"2012\",\t\t\n\t\t\"course_name\": \"Cloud Services\",\n\t\t\"course_description\" : \"Student will learn about cloud services\",\n\t\t\"grade\":\"3\",\n\t\t\"id\" : \"4\"\n\t}"
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:3333/",
+			"request": {
+				"url": "http://127.0.0.1:3333/1",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n\t\t\r\n\t\t{\r\n\t\t\"name\" : \"John\",\r\n\t\t\"address\" : \"USA\",\r\n\t\t\"class\" : \"2012\",\t\t\r\n\t\t\"course_name\": \"Cloud Services\",\r\n\t\t\"course_description\" : \"Student will learn about cloud services\",\r\n\t\t\"grade\":\"3\",\r\n\t\t\"id\" : \"4\"\r\n\t}"
+				},
+				"description": "This responds a GET request through ID \n\n\t\t"
+			},
+			"response": []
+		}
+	]
+}
